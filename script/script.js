@@ -105,6 +105,7 @@ Snake.prototype.move = function () {
         setTimeout(function () {location.reload()}, 3000)
         return
     }
+    //test
 
     this.segments.unshift(newHead)
 
