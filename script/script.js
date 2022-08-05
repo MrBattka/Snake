@@ -102,6 +102,7 @@ Snake.prototype.move = function () {
 
     if (this.checkCollision(newHead)) {
         gameOver()
+        setTimeout(function () {location.reload()}, 3000)
         return
     }
 
